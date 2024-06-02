@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS accelerometer_landing(
+    user string,
+    timestamp bigint,
+    lastUpdateDate bigint,
+    x float,
+    y float,
+    z float
+)
+LOCATION 's3://stedi-proj-bucket/accelerometer/landing/'
